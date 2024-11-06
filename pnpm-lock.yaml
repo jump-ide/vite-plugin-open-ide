@@ -205,7 +205,7 @@ importers:
         version: 9.12.0(jiti@1.21.6)
       happy-dom:
         specifier: ^15.7.4
-        version: 15.7.4
+        version: 15.10.1
       typescript:
         specifier: ^5.6.2
         version: 5.6.2
@@ -229,7 +229,7 @@ importers:
         version: 0.32.3(@vue/compiler-sfc@3.5.11)(vite@5.4.8(@types/node@22.7.4))(vue-router@4.4.5(vue@3.5.11(typescript@5.6.2)))
       vitest:
         specifier: ^2.1.2
-        version: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.7.4)
+        version: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.10.1)
       vue-tsc:
         specifier: ^2.1.6
         version: 2.1.6(typescript@5.6.2)
@@ -2244,8 +2244,8 @@ packages:
     resolution: {integrity: sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==}
     engines: {node: '>=10'}
 
-  happy-dom@15.7.4:
-    resolution: {integrity: sha512-r1vadDYGMtsHAAsqhDuk4IpPvr6N8MGKy5ntBo7tSdim+pWDxus2PNqOcOt8LuDZ4t3KJHE+gCuzupcx/GKnyQ==}
+  happy-dom@15.10.1:
+    resolution: {integrity: sha512-FuGnj/qIB4QnBL6fWmD7Wnh6STxevLgOVWB6+nopDGgWG1+t9CXkNB2ldZ+iqwD2UKxD2D0SU8el8A6AX6Q1+g==}
     engines: {node: '>=18.0.0'}
 
   has-flag@3.0.0:
@@ -4905,7 +4905,7 @@ snapshots:
       magic-string: 0.30.11
       picocolors: 1.0.1
       std-env: 3.7.0
-      vitest: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.7.4)
+      vitest: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.10.1)
 
   '@vitest/eslint-plugin@1.1.4(@typescript-eslint/utils@8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2)(vitest@2.1.2)':
     dependencies:
@@ -4913,7 +4913,7 @@ snapshots:
     optionalDependencies:
       '@typescript-eslint/utils': 8.8.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.2)
       typescript: 5.6.2
-      vitest: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.7.4)
+      vitest: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.10.1)
 
   '@vitest/expect@2.1.2':
     dependencies:
@@ -4958,7 +4958,7 @@ snapshots:
       sirv: 2.0.4
       tinyglobby: 0.2.6
       tinyrainbow: 1.2.0
-      vitest: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.7.4)
+      vitest: 2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.10.1)
 
   '@vitest/utils@2.1.2':
     dependencies:
@@ -6063,7 +6063,7 @@ snapshots:
     dependencies:
       duplexer: 0.1.2
 
-  happy-dom@15.7.4:
+  happy-dom@15.10.1:
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
@@ -7646,7 +7646,7 @@ snapshots:
     optionalDependencies:
       vite: 5.4.8(@types/node@22.7.4)
 
-  vitest@2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.7.4):
+  vitest@2.1.2(@types/node@22.7.4)(@vitest/ui@2.1.2)(happy-dom@15.10.1):
     dependencies:
       '@vitest/expect': 2.1.2
       '@vitest/mocker': 2.1.2(@vitest/spy@2.1.2)(vite@5.4.8(@types/node@22.7.4))
@@ -7670,7 +7670,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 22.7.4
       '@vitest/ui': 2.1.2(vitest@2.1.2)
-      happy-dom: 15.7.4
+      happy-dom: 15.10.1
     transitivePeerDependencies:
       - less
       - lightningcss

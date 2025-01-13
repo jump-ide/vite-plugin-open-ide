@@ -45,17 +45,17 @@
   "dependencies": {
     "fs-extra": "^11.2.0",
     "kolorist": "^1.8.0",
-    "shell-quote": "^1.8.1"
+    "shell-quote": "^1.8.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.3",
+    "@antfu/eslint-config": "^3.14.0",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.10.5",
     "@types/shell-quote": "^1.7.5",
-    "bumpp": "^9.6.1",
-    "eslint": "^9.12.0",
-    "tsup": "^8.3.0",
-    "typescript": "^5.6.2",
-    "vite": "^5.4.8"
+    "bumpp": "^9.10.0",
+    "eslint": "^9.18.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.11"
   }
 }

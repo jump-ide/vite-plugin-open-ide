@@ -55,8 +55,8 @@ importers:
         specifier: workspace:*
         version: link:../..
       vite-plugin-inspect:
-        specifier: ^0.8.7
-        version: 0.8.7(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
+        specifier: ^10.0.6
+        version: 10.0.6(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
     devDependencies:
       '@preact/preset-vite':
         specifier: ^2.9.1
@@ -80,8 +80,8 @@ importers:
         specifier: workspace:*
         version: link:../..
       vite-plugin-inspect:
-        specifier: ^0.8.7
-        version: 0.8.7(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
+        specifier: ^10.0.6
+        version: 10.0.6(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
     devDependencies:
       '@types/react':
         specifier: ^18.3.11
@@ -108,8 +108,8 @@ importers:
         specifier: workspace:*
         version: link:../..
       vite-plugin-inspect:
-        specifier: ^0.8.7
-        version: 0.8.7(rollup@4.21.0)(vite@5.4.1(@types/node@22.7.4))
+        specifier: ^10.0.6
+        version: 10.0.6(rollup@4.21.0)(vite@5.4.1(@types/node@22.7.4))
     devDependencies:
       typescript:
         specifier: ^5.6.2
@@ -127,8 +127,8 @@ importers:
         specifier: workspace:*
         version: link:../..
       vite-plugin-inspect:
-        specifier: ^0.8.7
-        version: 0.8.7(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
+        specifier: ^10.0.6
+        version: 10.0.6(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.1.2
@@ -167,8 +167,8 @@ importers:
         specifier: workspace:*
         version: link:../..
       vite-plugin-inspect:
-        specifier: ^0.8.7
-        version: 0.8.7(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
+        specifier: ^10.0.6
+        version: 10.0.6(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
       vue:
         specifier: ^3.5.11
         version: 3.5.11(typescript@5.6.2)
@@ -240,8 +240,8 @@ importers:
         specifier: workspace:*
         version: link:../..
       vite-plugin-inspect:
-        specifier: ^0.8.7
-        version: 0.8.7(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
+        specifier: ^10.0.6
+        version: 10.0.6(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
       vue:
         specifier: ^3.5.11
         version: 3.5.11(typescript@5.6.2)
@@ -265,8 +265,8 @@ importers:
         specifier: workspace:*
         version: link:../..
       vite-plugin-inspect:
-        specifier: ^0.8.7
-        version: 0.8.7(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
+        specifier: ^10.0.6
+        version: 10.0.6(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4))
       vue:
         specifier: ^3.5.11
         version: 3.5.11(typescript@5.6.2)
@@ -341,6 +341,9 @@ packages:
 
   '@antfu/utils@0.7.10':
     resolution: {integrity: sha512-+562v9k4aI80m1+VuMHehNJWLOFjBnXn3tdOitzD0il5b7smkSBal4+a3oKiQTbrwMmN/TBUMDvbdoWDehgOww==}
+
+  '@antfu/utils@8.0.0':
+    resolution: {integrity: sha512-3NfBIlWj8ffBHdNiedaiea1xIy0NIZZaqQwTbmwXa4sGekD5UarRU3NfXScpuC5aw99KCvErew3PHxGJeHqeAg==}
 
   '@babel/code-frame@7.24.7':
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
@@ -933,6 +936,15 @@ packages:
 
   '@rollup/pluginutils@5.1.2':
     resolution: {integrity: sha512-/FIdS3PyZ39bjZlwqFnWqCOVnW7o963LtKMwQOD0NhQqw22gSr2YY1afu3FxRip4ZCZNsD5jq6Aaz6QV3D/Njw==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
+  '@rollup/pluginutils@5.1.4':
+    resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -1741,6 +1753,15 @@ packages:
       supports-color:
         optional: true
 
+  debug@4.4.0:
+    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
   decode-named-character-reference@1.0.2:
     resolution: {integrity: sha512-O8x12RzrUF8xyVcY0KJowWsmaJxQbmy0/EtnNtHRpsOcT7dFk5W598coHqBVpmWo1oQQfsCqfCmkZN5DJrZVdg==}
 
@@ -1832,8 +1853,8 @@ packages:
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
 
-  error-stack-parser-es@0.1.5:
-    resolution: {integrity: sha512-xHku1X40RO+fO8yJ8Wh2f2rZWVjqyhb1zgq1yZ8aZRQkv6OOKhKWRUaht3eSCUbAOBaKIgM+ykwFLE+QUxgGeg==}
+  error-stack-parser-es@1.0.5:
+    resolution: {integrity: sha512-5qucVt2XcuGMcEGgWI7i+yZpmpByQ8J1lHhcL7PwqCwu9FPP3VUXzT4ltHe5i2z9dePwEHcDVOAfSnHsOlCXRA==}
 
   es-module-lexer@1.5.4:
     resolution: {integrity: sha512-MVNK56NiMrOwitFB7cqDwq0CQutbw+0BvLshJSse0MUNU+y1FC3bUS/AQg7oUng+/wKrrki7JfmwtVHkVfPLlw==}
@@ -2945,6 +2966,9 @@ packages:
   picocolors@1.1.0:
     resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
+
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
@@ -3167,6 +3191,10 @@ packages:
   sirv@2.0.4:
     resolution: {integrity: sha512-94Bdh3cC2PKrbgSOUqTiGPWVZeSiXfKOVZNJniWoqrWrRkB1CJzBU3NEbiTsPcYy1lDsANA/THzS+9WBiy5nfQ==}
     engines: {node: '>= 10'}
+
+  sirv@3.0.0:
+    resolution: {integrity: sha512-BPwJGUeDaDCHihkORDchNyyTvWFhcusy1XMmhEVTQTwGeybFbp8YEmB+njbPnth1FibULBSBVwCQni25XlCUDg==}
+    engines: {node: '>=18'}
 
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
@@ -3563,12 +3591,12 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite-plugin-inspect@0.8.7:
-    resolution: {integrity: sha512-/XXou3MVc13A5O9/2Nd6xczjrUwt7ZyI9h8pTnUMkr5SshLcb0PJUOVq2V+XVkdeU4njsqAtmK87THZuO2coGA==}
+  vite-plugin-inspect@10.0.6:
+    resolution: {integrity: sha512-24iFdPyYY+zMPFRzyIz74h/K27PVf7NFKdebPHbohAAF1gzM60jsWxhxlmpmaa7V7XxHGp8U0+2Kd0L21DGn3Q==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': '*'
-      vite: ^3.1.0 || ^4.0.0 || ^5.0.0-0
+      vite: ^6.0.0
     peerDependenciesMeta:
       '@nuxt/kit':
         optional: true
@@ -3889,6 +3917,8 @@ snapshots:
       tinyexec: 0.3.0
 
   '@antfu/utils@0.7.10': {}
+
+  '@antfu/utils@8.0.0': {}
 
   '@babel/code-frame@7.24.7':
     dependencies:
@@ -4448,9 +4478,17 @@ snapshots:
 
   '@rollup/pluginutils@5.1.2(rollup@4.21.0)':
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 4.21.0
+
+  '@rollup/pluginutils@5.1.4(rollup@4.21.0)':
+    dependencies:
+      '@types/estree': 1.0.6
+      estree-walker: 2.0.2
+      picomatch: 4.0.2
     optionalDependencies:
       rollup: 4.21.0
 
@@ -5432,6 +5470,10 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
+  debug@4.4.0:
+    dependencies:
+      ms: 2.1.3
+
   decode-named-character-reference@1.0.2:
     dependencies:
       character-entities: 2.0.2
@@ -5513,7 +5555,7 @@ snapshots:
     dependencies:
       is-arrayish: 0.2.1
 
-  error-stack-parser-es@0.1.5: {}
+  error-stack-parser-es@1.0.5: {}
 
   es-module-lexer@1.5.4: {}
 
@@ -6859,6 +6901,8 @@ snapshots:
 
   picocolors@1.1.0: {}
 
+  picocolors@1.1.1: {}
+
   picomatch@2.3.1: {}
 
   picomatch@4.0.2: {}
@@ -7062,6 +7106,12 @@ snapshots:
   signal-exit@4.1.0: {}
 
   sirv@2.0.4:
+    dependencies:
+      '@polka/url': 1.0.0-next.25
+      mrmime: 2.0.0
+      totalist: 3.0.1
+
+  sirv@3.0.0:
     dependencies:
       '@polka/url': 1.0.0-next.25
       mrmime: 2.0.0
@@ -7374,7 +7424,7 @@ snapshots:
 
   unimport@3.10.0(rollup@4.21.0):
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
+      '@rollup/pluginutils': 5.1.2(rollup@4.21.0)
       acorn: 8.12.1
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
@@ -7555,17 +7605,17 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-inspect@0.8.7(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4)):
+  vite-plugin-inspect@10.0.6(@nuxt/kit@3.12.4(rollup@4.21.0))(rollup@4.21.0)(vite@5.4.8(@types/node@22.7.4)):
     dependencies:
-      '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
-      debug: 4.3.6
-      error-stack-parser-es: 0.1.5
+      '@antfu/utils': 8.0.0
+      '@rollup/pluginutils': 5.1.4(rollup@4.21.0)
+      debug: 4.4.0
+      error-stack-parser-es: 1.0.5
       fs-extra: 11.2.0
       open: 10.1.0
       perfect-debounce: 1.0.0
-      picocolors: 1.0.1
-      sirv: 2.0.4
+      picocolors: 1.1.1
+      sirv: 3.0.0
       vite: 5.4.8(@types/node@22.7.4)
     optionalDependencies:
       '@nuxt/kit': 3.12.4(rollup@4.21.0)
@@ -7573,17 +7623,17 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-inspect@0.8.7(rollup@4.21.0)(vite@5.4.1(@types/node@22.7.4)):
+  vite-plugin-inspect@10.0.6(rollup@4.21.0)(vite@5.4.1(@types/node@22.7.4)):
     dependencies:
-      '@antfu/utils': 0.7.10
-      '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
-      debug: 4.3.6
-      error-stack-parser-es: 0.1.5
+      '@antfu/utils': 8.0.0
+      '@rollup/pluginutils': 5.1.4(rollup@4.21.0)
+      debug: 4.4.0
+      error-stack-parser-es: 1.0.5
       fs-extra: 11.2.0
       open: 10.1.0
       perfect-debounce: 1.0.0
-      picocolors: 1.0.1
-      sirv: 2.0.4
+      picocolors: 1.1.1
+      sirv: 3.0.0
       vite: 5.4.1(@types/node@22.7.4)
     transitivePeerDependencies:
       - rollup
